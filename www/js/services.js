@@ -3,13 +3,13 @@ angular.module('app.services', [])
 
 
 .factory('fireBaseData', function($firebase) {
-	var ref = new Firebase("https://ionic-shopping-cart-f3596.firebaseio.com/"),
-    refCart = new Firebase("https://ionic-shopping-cart-f3596.firebaseio.com/cart"),
-    refUser = new Firebase("https://ionic-shopping-cart-f3596.firebaseio.com/users"),
-    refCategory = new Firebase("https://ionic-shopping-cart-f3596.firebaseio.com/category"),
-    refOrder = new Firebase("https://ionic-shopping-cart-f3596.firebaseio.com/orders"),
-    refFeatured = new Firebase("https://ionic-shopping-cart-f3596.firebaseio.com/featured"),
-    refMenu = new Firebase("https://ionic-shopping-cart-f3596.firebaseio.com/menu");
+	var ref = new Firebase("https://freshstock-22293.firebaseio.com/"),
+    refCart = new Firebase("https://freshstock-22293.firebaseio.com/cart"),
+    refUser = new Firebase("https://freshstock-22293.firebaseio.com/users"),
+    refCategory = new Firebase("https://freshstock-22293.firebaseio.com/category"),
+    refOrder = new Firebase("https://freshstock-22293.firebaseio.com/orders"),
+    refFeatured = new Firebase("https://freshstock-22293.firebaseio.com/featured"),
+    refMenu = new Firebase("https://freshstock-22293.firebaseio.com/menu");
   return {
     ref: function() {
       return ref;
