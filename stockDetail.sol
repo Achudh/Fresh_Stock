@@ -7,7 +7,7 @@ contract stockDetails {
     uint8 capsicum;
     uint8 cabbage;
     uint8 pumpkin;
-    uint8 peas
+    uint8 peas;
     
     string storageId;
 
