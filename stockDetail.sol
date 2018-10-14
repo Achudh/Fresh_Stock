@@ -8,17 +8,6 @@ contract stockDetails {
     uint8 cabbage;
     uint8 pumpkin;
     uint8 peas;
-    pragma solidity ^0.4.0;
-contract stockDetails {pragma solidity ^0.4.0;
-contract stockDetails {
-
-    uint8 potato;
-    uint8 tomato;
-    uint8 carrot;
-    uint8 capsicum;
-    uint8 cabbage;
-    uint8 pumpkin;
-    uint8 peas;
     
     string storageId;
 
